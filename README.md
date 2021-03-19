@@ -1,4 +1,4 @@
-# Alteryx SDK Snowflake Output SemiStructured Data
+# Alteryx SDK Snowflake Output Semi-Structured Data
 
 
 # Description
