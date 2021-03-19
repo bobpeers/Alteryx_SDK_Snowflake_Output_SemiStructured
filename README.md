@@ -24,9 +24,9 @@ create or replace table mytable (column_name VARIANT)
 
 ## Input Files
 
-All the input files **MUST** be of the same type. The connector checks the file extentions of all the files and will stop woth an error is there is more than one file extension.
+All the input files **MUST** be of the same type. The connector checks the file extentions of all the files and will stop with an error is there is more than one file extension found.
 
-The files must also have a file extenton of type json, xml, parquet, avro, orc. Any other files will stop the connector with an error.
+The files must also have a file extention of type **json, xml, parquet, avro, orc**. Any other files will stop the connector with an error.
 
 It is up to you to only load files with the same schema, the connector will **NOT** check the schemas are the same and will load them regardless.
 
