@@ -33,7 +33,6 @@ It is up to you to only load files with the same schema, the connector will **NO
 ## Advanced Options Include
 - Quote all fields (they will be case sensitive in Snowflake)
 - Suspend the warehouse immediately after running (this will cause Snowflake to wait until current operations are finished first)
-- Auto delete temporary files created by the connector (gzipped files only, not log files)
 
 ## Installation
 Download the yxi file and double click to install in Alteryx. 
@@ -44,7 +43,7 @@ The tool will be installed in the __Connectors__ category.
 
 ## Requirements
 
-The tool installs the official [Snowflake Connector library](https://docs.snowflake.com/en/user-guide/python-connector.html)
+The tool installs the official [Snowflake Connector library](https://docs.snowflake.com/en/user-guide/python-connector.html). If you have already installed another Snowflake SDK tool from me then it will share the same Python libraries as the other connectors.
 
 ## Authorisation
 This can be either via Snowflake or Okta. If you select Okta authentication this must be set up on the server according to the [Snowflake Instructions](https://docs.snowflake.com/en/user-guide/admin-security-fed-auth-configure-snowflake.html). 
