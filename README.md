@@ -60,7 +60,7 @@ The files will then be loaded to the chosen table.
 
 | ⚠️ Column name in Semi-Structured Snowflake Table|
 |:---|
-|The connector will use the column name containing the file paths as the column name in the Snowflake table so if you are not creating a new table this mush of course match with the column name in Snowflake|
+|The connector will use the column name containing the file paths as the column name in the Snowflake table so if you are not creating a new table this must of course match with the column name in Snowflake|
 
 ## Configuration
 Configure the tool using the setting for you Snowflake instance. Note that the account is the string to the left of __snowflakecomputing.com__ in your URL.
